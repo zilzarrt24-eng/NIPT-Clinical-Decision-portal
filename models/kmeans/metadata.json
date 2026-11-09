@@ -1,0 +1,22 @@
+{
+  "n_clusters": 2,
+  "pca_variance_ratio": [
+    0.21834734866665303,
+    0.15728287096983123
+  ],
+  "cluster_sample_counts": {
+    "0": 1952,
+    "1": 3566
+  },
+  "features_used": [
+    "age",
+    "week",
+    "fetal",
+    "reads",
+    "peak",
+    "T13_Z_chr_vs_n",
+    "T18_Z_chr_vs_n",
+    "T21_Z_chr_vs_n"
+  ],
+  "non_diagnostic_disclaimer": "These clusters describe technical assay profiles and patient demographics. They do NOT indicate fetal chromosomal aneuploidy or medical diagnoses."
+}

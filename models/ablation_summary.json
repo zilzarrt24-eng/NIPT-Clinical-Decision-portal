@@ -1,0 +1,81 @@
+{
+  "T13": {
+    "aneuploidy": "T13",
+    "pr_auc_model_b": 0.8267948717948719,
+    "pr_auc_model_c": 0.833903133903134,
+    "delta_pr_auc": 0.007108262108262098,
+    "roc_auc_model_b": 0.999673499002358,
+    "roc_auc_model_c": 0.9992018864502086,
+    "delta_roc_auc": -0.0004716125521494474,
+    "brier_score_model_b": 0.0003147328358921354,
+    "brier_score_model_c": 0.00024213448017530235,
+    "delta_brier": -7.259835571683308e-05,
+    "paired_disagreements_count": 1,
+    "discrepant_samples": [
+      {
+        "Sample ID": "#4858",
+        "Target": 1,
+        "Prob_Model_B": 0.4263966084680708,
+        "Prob_Model_C": 0.6538013674327054,
+        "Call_Model_B": 0,
+        "Call_Model_C": 1
+      }
+    ],
+    "objective_ablation_conclusion": "Model B and Model C showed comparable screening performance (\u0394PR-AUC within \u00b10.01)."
+  },
+  "T18": {
+    "aneuploidy": "T18",
+    "pr_auc_model_b": 0.9733465072938756,
+    "pr_auc_model_c": 0.943381820564483,
+    "delta_pr_auc": -0.029964686729392565,
+    "roc_auc_model_b": 0.9999151977709128,
+    "roc_auc_model_c": 0.999806166333515,
+    "delta_roc_auc": -0.00010903143739771082,
+    "brier_score_model_b": 0.0006003726946169469,
+    "brier_score_model_c": 0.0006766539404348272,
+    "delta_brier": 7.628124581788025e-05,
+    "paired_disagreements_count": 0,
+    "discrepant_samples": [],
+    "objective_ablation_conclusion": "Model B outperformed Model C in PR-AUC; adding clinical features did not improve separation."
+  },
+  "T21": {
+    "aneuploidy": "T21",
+    "pr_auc_model_b": 0.9893420475868138,
+    "pr_auc_model_c": 0.9875342874457202,
+    "delta_pr_auc": -0.0018077601410935173,
+    "roc_auc_model_b": 0.999952784691448,
+    "roc_auc_model_c": 0.9999460396473691,
+    "delta_roc_auc": -6.74504407893739e-06,
+    "brier_score_model_b": 0.0005742105331779663,
+    "brier_score_model_c": 0.0006497590360238928,
+    "delta_brier": 7.554850284592651e-05,
+    "paired_disagreements_count": 3,
+    "discrepant_samples": [
+      {
+        "Sample ID": "#1456",
+        "Target": 1,
+        "Prob_Model_B": 0.349785275946864,
+        "Prob_Model_C": 0.6088258231762248,
+        "Call_Model_B": 0,
+        "Call_Model_C": 1
+      },
+      {
+        "Sample ID": "#3061",
+        "Target": 1,
+        "Prob_Model_B": 0.9392610973904275,
+        "Prob_Model_C": 0.12220613413600002,
+        "Call_Model_B": 1,
+        "Call_Model_C": 0
+      },
+      {
+        "Sample ID": "#3374",
+        "Target": 1,
+        "Prob_Model_B": 0.48237350639368276,
+        "Prob_Model_C": 0.6254883166597992,
+        "Call_Model_B": 0,
+        "Call_Model_C": 1
+      }
+    ],
+    "objective_ablation_conclusion": "Model B and Model C showed comparable screening performance (\u0394PR-AUC within \u00b10.01)."
+  }
+}
